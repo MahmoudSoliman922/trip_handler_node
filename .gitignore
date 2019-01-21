@@ -1,0 +1,12 @@
+.vscode
+.env
+views/public/data/sentiment_network.json
+public/Ready_made_courses
+public/Courses
+model/mongoose_db
+node_modules
+.idea
+combined.log
+error.log
+exceptions.log
+.desktopfolder

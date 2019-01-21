@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "12345P@$$w0rd",
+  "db": "mongodb://localhost/v1"
+}
