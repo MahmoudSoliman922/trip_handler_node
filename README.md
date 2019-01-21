@@ -55,25 +55,22 @@ As shown in ``` components/trips/v1/TripsSchema.js ```, the Database Schema is a
 
 ```
 {
-    from: {
-      type: String,
-    },
-    to: {
-      type: String,
-    },
-    status: {
-      type: String,
-    },
-    location: [
-      {
-        type: String,
-      }
-    ],
+  from: {
+    type: String,
   },
-  {
-    timestamps: true,
-    autoIndex: true
-  }
+  to: {
+    type: String,
+  },
+  status: {
+    type: String,
+  },
+  location: [
+    {
+      type: String,
+    }
+  ],
+},
+
 ```
 
 ## POSTMAN Documentation
@@ -88,7 +85,7 @@ As you can see in the screenshot below you can find the end-points on the left, 
 
 * CRUD operations on the Trips with handeling the most failure scenarios using response codes as well as following rails conventions.
 
-* Insertion of trips locations - For this part in rails it should have been implemented using Background jobs however node's conventions let it by default run every database query asynchronously. -
+* Insertion of trips locations - For this part in rails it should have been implemented using Background jobs however node's default behaviour is to run every database query asynchronously. -
 
 * Created PostMan API Happy Scenareo testing with Examples
 
